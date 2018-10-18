@@ -1,0 +1,8 @@
+/* Para componentes bem pequenos */
+.container-brave {
+    background-image: url(../../img/braven.jpg);
+    background-size: auto 100%;
+    background-position: -300px 0;
+    background-repeat: no-repeat;
+    height: 100%;
+}
