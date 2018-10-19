@@ -1,0 +1,8 @@
+/* > significa filho direto
+    sempre escolhe a menor fonte e faz a proporção para ir ajustando todo layout */
+.header-brave > .title {
+    font-size: 1.176em; /* pega o pai como referência */
+    text-transform: uppercase;
+    letter-spacing: 1.2em; /* pega a fonte como referência */
+    color: var(--color-zero);
+}

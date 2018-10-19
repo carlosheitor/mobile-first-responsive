@@ -1,0 +1,4 @@
+/* Root = pode ser acessada de qualquer lugar */
+:root {
+    --color-zero: white;
+}
