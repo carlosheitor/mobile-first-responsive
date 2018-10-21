@@ -9,17 +9,32 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
     
     <link rel="stylesheet" href="css/settings/color.css">
+    <link rel="stylesheet" href="css/settings/size.css">
     <link rel="stylesheet" href="css/generic/reset.css">
     <link rel="stylesheet" href="css/base/index.css">
-    <link rel="stylesheet" href="css/objects/container-brave.css">
-    <link rel="stylesheet" href="css/components/header-brave.css">
+    <link rel="stylesheet" href="css/objects/container-braven.css">
+    <link rel="stylesheet" href="css/components/header-braven.css">
+    <link rel="stylesheet" href="css/components/menu-braven.css">
     
 </head>
 <body>
-    <main class="container-brave">
-        <header class="header-brave">
+    <main class="container-braven">
+        <header class="header-braven">
             <h1 class="title">Braven</h1>
-            <nav class="menu-brave"></nav>
+            <nav class="menu-braven">
+                <a href="#menu" class="menu">Menu</a>   <!-- O navegador vai relacionar o #menu com id do ul -->
+                <ul id="menu" class="items">
+                    <li class="item">
+                        <a href="" class="action">Cast</a>  <!--P/ acessib. é ruim a palavra em maiúscula, pq interpreta com sigla e não palavra -->
+                    </li>
+                    <li class="item">
+                        <a href="" class="action">Technical Specs</a>
+                    </li>
+                    <li class="item">
+                        <a href="" class="action">User Reviews</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
     </main>
 </body>

@@ -1,0 +1,10 @@
+:root {
+    --spacing-container-top: 7.389vh; /* pega a fonte como altura da tela (view port height) - altura da janela. Nesse caso pega uma % da altura da janela 
+    Se a altura é 812 e queremos 60 px de distância, então 812-100 = 60-x*/
+    --spacing-container-right: 9.6vw;
+    --spacing-container-bottom: 2.709vh;
+    --spacing-container-left: 9.6vw; /* pega a fonte como largura da tela (view port height) - largura da janela. Nesse caso pega uma % da largura da janela 
+    Se a altura é 375 e queremos 36 px de distância, então 375-100 = 36-x*/ 
+
+    --spacing-very-small: 6px;
+}
