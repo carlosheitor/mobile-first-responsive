@@ -1,5 +1,7 @@
 /* Para componentes bem pequenos */
 .container-braven {
+    display: flex;
+    flex-direction: column;
     position: relative;
     background-image: url(../../img/braven.jpg);
     background-size: auto 100%;
