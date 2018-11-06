@@ -22,6 +22,7 @@
     transform: translateX(100%); /* Esse 100% é equivalente a largura do elemento. */
     transition: 200ms linear;
     pointer-events: none;
+    z-index: 10;
 }
 
 .menu-braven > .items.-active {
