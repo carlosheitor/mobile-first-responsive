@@ -7,6 +7,7 @@
     Se a altura é 375 e queremos 36 px de distância, então 375-100 = 36-x*/ 
 
     --spacing-very-small: 6px;
+    --spacing-medium: 20px;
     --spacing-big: 70px;
     --spacing-very-big: 140px;
 }

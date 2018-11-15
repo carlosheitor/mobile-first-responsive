@@ -3,14 +3,20 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    background-image: url(../../img/braven.jpg);
+    background: url(../../img/braven.jpg) no-repeat -250px 0;
     background-size: auto 100%;
-    background-position: -300px 0;
-    background-repeat: no-repeat;
     box-sizing: border-box; /*pq com os paddings ele fica com altura 100% mais o valor dos paddings e nós não queremos isso*/
     width: 100vw;
     height: 100%;
     font-weight: bold;
     padding: var(--spacing-container-top) var(--spacing-container-right) var(--spacing-container-bottom) var(--spacing-container-left);
     overflow: hidden;
+    min-width: 375px;
+    min-height: 812px;
+}
+
+@media ( min-width: 980px ) {
+    .container-braven {
+        background-position: center;
+    }
 }

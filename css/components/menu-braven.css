@@ -58,3 +58,38 @@
 .menu-braven .item:not(:last-child) {
     margin-bottom: 2.352em; /* 40 dividido por 17 (body) */
 }
+
+/* Quando tiver essa largura vai ser aplicado a regra no navegador que estará dentro do media */
+@media ( min-width: 980px ) {
+    .menu-braven > .menu {
+        display: none;
+    }
+    .menu-braven > .items {
+        display: flex;
+        align-items: center;
+        position: static;
+        transform: none;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        padding: 0;
+        pointer-events: all;
+    }
+
+    .menu-braven > .items:before {
+        display: none;
+    }
+
+    .menu-braven .item {
+        display: inline-block;
+    }
+
+    .menu-braven .item:not(:last-child) {
+        margin-bottom: 0;
+        margin-right: var(--spacing-medium);
+    }
+
+    .menu-braven .action {
+        text-transform: uppercase;
+    }
+}
